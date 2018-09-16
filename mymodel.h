@@ -1,5 +1,4 @@
-#ifndef MYMODEL_H
-#define MYMODEL_H
+#pragma once
 
 #include <QObject>
 #include <QAbstractItemModel>
@@ -66,5 +65,3 @@ private:
     QSqlQuery m_query;
     ItemData *m_root;
 };
-
-#endif // MYMODEL_H
