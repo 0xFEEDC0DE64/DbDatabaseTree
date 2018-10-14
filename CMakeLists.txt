@@ -9,6 +9,10 @@ set(SOURCES
     mymodel.cpp
 )
 
-add_executable(databasetree ${HEADERS} ${SOURCES})
+set(OTHER_FILES
+    install.sql
+)
+
+add_executable(databasetree ${HEADERS} ${SOURCES} ${OTHER_FILES})
 
 target_link_libraries(databasetree Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Sql)
