@@ -1,5 +1,10 @@
 project(DbDatabaseTree)
 
+find_package(Qt5Core CONFIG REQUIRED)
+find_package(Qt5Gui CONFIG REQUIRED)
+find_package(Qt5Widgets CONFIG REQUIRED)
+find_package(Qt5Sql CONFIG REQUIRED)
+
 set(HEADERS
     mymodel.h
 )
