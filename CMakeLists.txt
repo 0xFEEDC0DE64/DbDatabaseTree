@@ -20,4 +20,4 @@ set(OTHER_FILES
 
 add_executable(databasetree ${HEADERS} ${SOURCES} ${OTHER_FILES})
 
-target_link_libraries(databasetree Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Sql)
+target_link_libraries(databasetree stdc++ Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Sql)
